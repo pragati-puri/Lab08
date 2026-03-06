@@ -21,8 +21,10 @@ public class CustomList {
         return cities.contains(city);
     }
 
+    //delete city from the list
     public void deleteCity(City city){cities.remove(city);}
 
+    //count the number of cities in the list
     public int countCities(){
         return cities.size();
     }
