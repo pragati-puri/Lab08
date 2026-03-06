@@ -23,8 +23,8 @@ public class CustomList {
 
     public void deleteCity(City city){cities.remove(city);}
 
-    //public int countCities(){
-      //  return cities.size();
-    //}
+    public int countCities(){
+        return cities.size();
+    }
 
 }
